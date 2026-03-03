@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ECAP.API/ECAP.API.csproj" />
+  <Project Path="ECAP.Application/ECAP.Application.csproj" />
+  <Project Path="ECAP.Domain/ECAP.Domain.csproj" />
+  <Project Path="ECAP.Infrastructure/ECAP.Infrastructure.csproj" />
+</Solution>
