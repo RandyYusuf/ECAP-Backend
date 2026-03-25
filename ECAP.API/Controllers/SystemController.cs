@@ -11,4 +11,10 @@ public class SystemController : BaseApiController
         var response = ApiResponse<string>.Ok("Server is running perfectly.", "Healthy");
         return Ok(response);
     }
+
+    [HttpGet("force-error")]
+    public ActionResult ForceError()
+    {
+        throw new Exception("Simulasi critical error untuk menguji Middleware!");
+    }
 }
